@@ -463,7 +463,6 @@ static LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lPara
         case IDM_ACERCA:
             MessageBox(hWnd,
                 _T("Monitor de Alertas - Trabalho SO2\n\n")
-                _T("Antonio Correia - 2022141330\n")
                 _T("Joao Liborio - 2024128702"),
                 _T("Acerca"), MB_OK | MB_ICONINFORMATION);
             return 0;

@@ -90,9 +90,9 @@ The ecosystem consists of three decoupled components communicating through nativ
 
 ---
 
-## 👨‍💻 Authors & Academic Context
+## 👨‍💻 Author & Academic Context
 
 * **João Bernardo Graça**
-* **António Correia**
 
 Developed as part of the **Degree in Computer Engineering (LEI)** - *Application Development (DA) branch* at **ISEC (Instituto Superior de Engenharia de Coimbra)**.
+

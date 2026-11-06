@@ -4,7 +4,6 @@ Plataforma "Placar Informativo" - Entrega Final (Metas 1, 2 e 3)
 ================================================================================
 
 AUTORES:
-* António Correia (2022141330)
 * João Libório (2024128702)
 
 AVALIAÇÃO E DEFESA ORAL:
