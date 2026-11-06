@@ -1,0 +1,41 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+#include "winres.h"
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Menu
+
+IDR_MENU MENU
+BEGIN
+    POPUP "&Ficheiro"
+    BEGIN
+        MENUITEM "&Configuracao...",    IDM_CONFIG
+        MENUITEM "&Acerca...",          IDM_ACERCA
+        MENUITEM SEPARATOR
+        MENUITEM "&Sair",               IDM_SAIR
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+// Dialog (DialogBox em monitor.c)
+
+IDD_CONFIG DIALOG 0, 0, 320, 180
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuracao"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Maximo de alertas visiveis:",-1,10,10,130,8
+    EDITTEXT        IDC_MAX_ALERTAS,145,8,45,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Nome da memoria partilhada:",-1,10,28,150,8
+    EDITTEXT        IDC_NOME_SHM,10,40,300,12,ES_AUTOHSCROLL
+    LTEXT           "Nome do mutex:",-1,10,58,80,8
+    EDITTEXT        IDC_NOME_MUTEX,10,70,300,12,ES_AUTOHSCROLL
+    LTEXT           "Nome do evento:",-1,10,88,80,8
+    EDITTEXT        IDC_NOME_EVENT,10,100,300,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,200,155,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,260,155,50,14
+END
